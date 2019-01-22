@@ -14,10 +14,10 @@ import { ThankYouPage } from './thank-you.page';
     RouterModule.forChild([
       {
         path: '',
-        component: ThankYouPage
-      }
-    ])
+        component: ThankYouPage,
+      },
+    ]),
   ],
-  declarations: [ThankYouPage]
+  declarations: [ThankYouPage],
 })
 export class ThankYouPageModule {}

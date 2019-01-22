@@ -14,10 +14,10 @@ import { PresentationPage } from './presentation.page';
     RouterModule.forChild([
       {
         path: '',
-        component: PresentationPage
-      }
-    ])
+        component: PresentationPage,
+      },
+    ]),
   ],
-  declarations: [PresentationPage]
+  declarations: [PresentationPage],
 })
 export class PresentationPageModule {}

@@ -14,10 +14,10 @@ import { WelcomePage } from './welcome.page';
     RouterModule.forChild([
       {
         path: '',
-        component: WelcomePage
-      }
-    ])
+        component: WelcomePage,
+      },
+    ]),
   ],
-  declarations: [WelcomePage]
+  declarations: [WelcomePage],
 })
 export class WelcomePageModule {}
