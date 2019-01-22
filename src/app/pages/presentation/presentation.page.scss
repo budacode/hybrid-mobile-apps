@@ -1,1 +1,8 @@
 @import '~src/theme/variables.scss';
+
+.presentation-wrapper {
+    .content-wrapper {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}

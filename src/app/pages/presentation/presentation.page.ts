@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { PresentationProvider } from '../../providers/presentation.provider';
 import { Subject } from 'rxjs';
 import { distinctUntilChanged, takeUntil } from 'rxjs/operators';
+import { environment } from '../../../environments/environment';
 
 @Component({
   selector: 'app-presentation',
@@ -10,6 +11,7 @@ import { distinctUntilChanged, takeUntil } from 'rxjs/operators';
 })
 export class PresentationPage {
 
+  public titles: Map<number, string> = environment.titles;
   public activePage: number = 1;
   private pageNavigationSubscribed: Subject<boolean> = new Subject<boolean>();
 

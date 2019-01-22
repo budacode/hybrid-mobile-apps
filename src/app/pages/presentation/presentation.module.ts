@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { PresentationPage } from './presentation.page';
+import { FooterComponentModule } from '../../components/footer/footer.module';
+import { HeaderComponentModule } from '../../components/header/header.module';
 
 @NgModule({
   imports: [
@@ -17,6 +19,8 @@ import { PresentationPage } from './presentation.page';
         component: PresentationPage,
       },
     ]),
+    FooterComponentModule,
+    HeaderComponentModule,
   ],
   declarations: [PresentationPage],
 })

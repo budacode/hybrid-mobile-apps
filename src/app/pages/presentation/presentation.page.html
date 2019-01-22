@@ -1,5 +1,9 @@
 <ion-content>
   <div class="presentation-wrapper">
-    Presentation {{ activePage }}
+    <app-header [title]="titles.get(activePage)"></app-header>
+    <div class="content-wrapper">
+      Presentation {{ activePage }}
+    </div>
+    <app-footer></app-footer>
   </div>
 </ion-content>
