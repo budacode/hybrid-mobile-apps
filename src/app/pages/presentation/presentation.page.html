@@ -2,7 +2,14 @@
   <div class="presentation-wrapper">
     <app-header [title]="titles.get(activePage)"></app-header>
     <div class="content-wrapper">
-      Presentation {{ activePage }}
+      <app-page-1 *ngIf='activePage === 1'></app-page-1>
+      <app-page-2 *ngIf='activePage === 2'></app-page-2>
+      <app-page-3 *ngIf='activePage === 3'></app-page-3>
+      <app-page-4 *ngIf='activePage === 4'></app-page-4>
+      <app-page-5 *ngIf='activePage === 5'></app-page-5>
+      <app-page-6 *ngIf='activePage === 6'></app-page-6>
+      <app-page-7 *ngIf='activePage === 7'></app-page-7>
+      <app-page-8 *ngIf='activePage === 8'></app-page-8>
     </div>
     <app-footer></app-footer>
   </div>
