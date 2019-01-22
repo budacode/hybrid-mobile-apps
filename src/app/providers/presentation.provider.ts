@@ -39,7 +39,7 @@ export class PresentationProvider {
   public nextPage(): void {
     const currentPage = this.activePage.value.page;
 
-    if (currentPage < environment.presentationPagesCount) {
+    if (currentPage < environment.titles.size) {
       this.activePage.next({
         segmentName: 'presentation',
         page: currentPage + 1,
@@ -71,7 +71,7 @@ export class PresentationProvider {
       if (this.activePage.value.segmentName === 'thank-you') {
         return this.activePage.next({
           segmentName: 'presentation',
-          page: environment.presentationPagesCount,
+          page: environment.titles.size,
         });
       }
 
