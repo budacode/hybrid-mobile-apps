@@ -14,7 +14,6 @@ import { Page4ComponentModule } from '../../components/page-4/page-4.module';
 import { Page5ComponentModule } from '../../components/page-5/page-5.module';
 import { Page6ComponentModule } from '../../components/page-6/page-6.module';
 import { Page7ComponentModule } from '../../components/page-7/page-7.module';
-import { Page8ComponentModule } from '../../components/page-8/page-8.module';
 
 @NgModule({
   imports: [
@@ -36,7 +35,6 @@ import { Page8ComponentModule } from '../../components/page-8/page-8.module';
     Page5ComponentModule,
     Page6ComponentModule,
     Page7ComponentModule,
-    Page8ComponentModule,
   ],
   declarations: [PresentationPage],
 })
