@@ -1,3 +1,69 @@
 <div class="page-wrapper">
-  
+  <div class="stage-1">
+    <table>
+        <tr>
+            <td>&nbsp;</td>
+            <td class="selected"><img src="assets/images/4/ionic.png" alt="ionic" /></td>
+            <td [class.selected]="stage < 3"><img src="assets/images/4/react-native.png" alt="react-native" /></td>
+            <td [class.selected]="stage < 2"><img src="assets/images/4/flutter.png" alt="flutter" /></td>
+            <td [class.selected]="stage < 3"><img src="assets/images/4/native-script.png" alt="native-script" /></td>
+            <td [class.selected]="stage < 2"><img src="assets/images/4/xamarin.png" alt="xamarin" /></td>
+            <td class="selected"><img src="assets/images/4/phone-gap.png" alt="phone-gap" /></td>
+        </tr>
+        <tr>
+            <td>Type</td>
+            <td class="selected">Hybrid</td>
+            <td [class.selected]="stage < 3">Native</td>
+            <td [class.selected]="stage < 2">Native</td>
+            <td [class.selected]="stage < 3">Native</td>
+            <td [class.selected]="stage < 2">Hybrid</td>
+            <td class="selected">Hybrid</td>
+        </tr>
+        <tr>
+            <td>Programming Language</td>
+            <td class="selected">JavaScript</td>
+            <td [class.selected]="stage < 3">JavaScript</td>
+            <td [class.selected]="stage < 2">Dart</td>
+            <td [class.selected]="stage < 3">JavaScript</td>
+            <td [class.selected]="stage < 2">C#</td>
+            <td class="selected">JavaScript</td>
+        </tr>
+        <tr>
+            <td>User interface description language</td>
+            <td class="selected">HTML</td>
+            <td [class.selected]="stage < 3">XML via JSX</td>
+            <td [class.selected]="stage < 2">Dart</td>
+            <td [class.selected]="stage < 3">XML</td>
+            <td [class.selected]="stage < 2">XAML</td>
+            <td class="selected">HTML</td>
+        </tr>
+        <tr>
+            <td>Supported mobile OS</td>
+            <td class="selected">Ios, Android</td>
+            <td [class.selected]="stage < 3">Ios, Android</td>
+            <td [class.selected]="stage < 2">Ios, Android</td>
+            <td [class.selected]="stage < 3">Ios, Android</td>
+            <td [class.selected]="stage < 2">Ios, Android, Windows phone 8+</td>
+            <td class="selected">Ios, Android, Windows phone 8+</td>
+        </tr>
+        <tr>
+            <td>Supporters & developers</td>
+            <td class="selected">Ionic</td>
+            <td [class.selected]="stage < 3">Facebook</td>
+            <td [class.selected]="stage < 2">Google</td>
+            <td [class.selected]="stage < 3">Progress</td>
+            <td [class.selected]="stage < 2">Microsoft</td>
+            <td class="selected">Apache Cordova</td>
+        </tr>
+        <tr>
+            <td>Popular softwares</td>
+            <td class="selected">Marketwatch, Pacifica, Sworkit, JustWatch, McDonald's, Diesel, Pick</td>
+            <td [class.selected]="stage < 3">Facebook, Walmart, Uber, Pinterest, Skype, Instagram</td>
+            <td [class.selected]="stage < 2">Alibaba, Google Ads, AppTree, Reflectly, JD Finnance</td>
+            <td [class.selected]="stage < 3">MyPuma, California Court Access App, Portable North Pole, UH Now</td>
+            <td [class.selected]="stage < 2">Olo foods, Storyo, Captio, Evolve, Transistor Game</td>
+            <td class="selected">Fan React, Localeur, Snowbuddy, Tripcase, METAR Reader</td>
+        </tr>
+    </table>
+  </div>
 </div>
